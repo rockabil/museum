@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <script defer src="index.js"></script>
+    <title>museum</title>
+</head>
+<body>
+    <header class="header black">
+        <div class="header-container container">
+            <div class="logo">
+                <img src="./assets/svg/logo.svg" alt="Louvre">
+                 <h1>Louvre</h1>
+            </div>
+            <nav class="nav-header">
+                <ul class="nav-header-list">
+                    <li class="nav-header-item"><a href="#visiting" class="nav-link">Visiting</a></li>
+                    <li class="nav-header-item"><a href="#explore" class="nav-link">Explore</a></li>
+                    <li class="nav-header-item"><a href="#video" class="nav-link">Video</a></li>
+                    <li class="nav-header-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-header-item"><a href="#tickets" class="nav-link">Tickets</a></li>
+                    <li class="nav-header-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <main>
+        <div class="wrapper">
+            <section class="welcome black">
+                <div class="container welcome">
+                   <div class="welc-button">
+                         <h2 class="section-title-black">Welcome<br>to the Louvre</h2>
+                         <p>From the castle to the museum</p>
+                         <a href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736" class="discover-button" target="_blank">Discover The Louvre</a>
+                   </div>
+                   <div class="welc-slider">
+                    <div class="item-container">
+                        <div class="item active">
+                            <div class="slider-image">
+                                <img src="assets/img/welcome-slider/1.jpg" alt="Mona Lisa">
+                                <div class="slider-shadow"></div>  
+                            </div>                     
+                        </div>
+                         <div class="item">
+                            <div class="slider-image">
+                                <img src="assets/img/welcome-slider/2.jpg" alt="La liberté guidant le peuple">
+                                <div class="slider-shadow"></div>  
+                            </div>                     
+                        </div>
+                        <div class="item">
+                            <div class="slider-image">
+                                <img src="assets/img/welcome-slider/3.jpg" alt="La Belle Ferronnièr">
+                                <div class="slider-shadow"></div>  
+                            </div>                     
+                        </div>  
+                        <div class="item">
+                            <div class="slider-image">
+                                <img src="assets/img/welcome-slider/4.jpg" alt="The Raft of the Medusa">
+                                <div class="slider-shadow"></div>  
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="slider-image">
+                                <img src="assets/img/welcome-slider/5.jpg" alt="The Astronomer">
+                                <div class="slider-shadow"></div>  
+                            </div>     
+                        </div>                                 
+                    </div>
+                    <div class="slider-menu">
+                            <div class="slider-count">
+                                <p>01 | 05</p>
+                            </div>                            
+                            <div class="slider-row">
+                                <div class="row-square active-square"></div>
+                                <div class="row-square unactive-square"></div>
+                                <div class="row-square unactive-square"></div>
+                                <div class="row-square unactive-square"></div>
+                                <div class="row-square unactive-square"></div>
+                            </div>
+                            <div class="slider-arrows">
+                                <div class="slider-arrow left">
+                                    <img class="arrow-colour" src="./assets/svg/left-arrow.svg" alt="Previous">
+                                </div>
+                                <div class="slider-arrow right">
+                                    <img class="arrow-colour" src="./assets/svg/right-arrow.svg" alt="Next">
+                                </div>
+                            </div>
+                    </div>                       
+                   </div> 
+                </div>
+            </section>
+            <section class="visiting white" id="visiting">
+                <div class="container">
+                    <article class="virtual">
+                        <h2 class="section-title-white">Virtual Tour</h2>
+                        <div class="title-underline"></div>
+                        <div class="virtual-grid">
+                             <div class="virtual-card">
+                                <a href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815" class="virtual-link">
+                                    <img src="./assets/img/virtual/royal_palace.jpg" alt="Royal Palace" class="virtual-image" />
+                                    <h3>Royal Palace</h3>
+                                    <div class="title-underline-small"></div>
+                                    <p class="virtual-360">360° Virtual Tour</p>
+                                    <p class="virtual-google">Google Street Panorama View</p>
+                                </a>
+                             </div>
+                             <div class="virtual-card">
+                                <a href=" https://www.google.com/maps/@48.8563254,2.3352706,3a,75y,90t/data=!3m7!1e1!3m5!1sAF1QipNRj_CwP4coDMYdCHj6qHeBeJpI2VxU5BUsOX4F!2e10!3e12!7i11000!8i5500" class="virtual-link">
+                                    <img src="./assets/img/virtual/denon_wing.jpg" alt="Denon Wing" class="virtual-image" />
+                                    <h3>Denon Wing</h3>
+                                    <div class="title-underline-small"></div>
+                                    <p class="virtual-360">360° Virtual Tour</p>
+                                    <p class="virtual-google">Google Street Panorama View</p>
+                                </a>
+                             </div>
+                             <div class="virtual-card">
+                                <a href=" https://www.google.com/maps/@48.8601723,2.3395439,3a,88.4y,322.04h,84.25t/data=!3m7!1e1!3m5!1sAF1QipNMZGQuEA-pAUvIG_eP_2f3gWTKZEJ6XLVJ-Pgb!2e10!3e12!7i10240!8i5120" class="virtual-link">
+                                    <img src="./assets/img/virtual/colonade_perault.jpg" alt="Colonnade Perrault" class="virtual-image" />
+                                    <h3>Colonnade Perrault</h3>
+                                    <div class="title-underline-small"></div>
+                                    <p class="virtual-360">360° Virtual Tour</p>
+                                    <p class="virtual-google">Google Street Panorama View</p>
+                                </a>
+                             </div>                             
+                             <div class="virtual-card">
+                                <a href="https://www.google.com/maps/@48.860183,2.3356156,3a,90y,177.69h,95.61t/data=!3m7!1e1!3m5!1sAF1QipP7uFZnTITRe-7AEVAgHAfqiCL-03gvBHcYWgF3!2e10!3e12!7i5472!8i2736" class="virtual-link">
+                                    <img src="./assets/img/virtual/greek_hall.jpg" alt="Greek Hall" class="virtual-image" />
+                                    <h3>Greek Hall</h3>
+                                    <div class="title-underline-small"></div>
+                                    <p class="virtual-360">360° Virtual Tour</p>
+                                    <p class="virtual-google">Google Street Panorama View</p>
+                                </a>
+                             </div>
+                             <div class="virtual-card">
+                                 <a href="https://www.google.com/maps/@48.8598788,2.3355157,3a,82.2y,7.53h,94t/data=!3m7!1e1!3m5!1sAF1QipO1wkUUbyzpPjj-OR0mR5etZJT-xl-40XK8rDQ3!2e10!3e12!7i10240!8i5120" class="virtual-link">
+                                    <img src="./assets/img/virtual/mona_lisa.jpg" alt="Mona Lisa" class="virtual-image" />
+                                    <h3>Mona Lisa</h3>
+                                    <div class="title-underline-small"></div>
+                                    <p class="virtual-360">360° Virtual Tour</p>
+                                    <p class="virtual-google">Google Street Panorama View</p>
+                                </a>
+                             </div>
+                             <div class="virtual-card">
+                                 <a href="https://www.google.com/maps/@48.8563254,2.3352706,3a,90y,21.26h,79.91t/data=!3m7!1e1!3m5!1sAF1QipPpGAowYatVyk3MMGnZAaQkYm2EUk-Dlca06SS5!2e10!3e12!7i11304!8i5652" class="virtual-link">
+                                    <img src="./assets/img/virtual/night_palace.jpg" alt="Night Palace" class="virtual-image" />
+                                    <h3>Night Palace</h3>
+                                    <div class="title-underline-small"></div>
+                                    <p class="virtual-360">360° Virtual Tour</p>
+                                    <p class="virtual-google">Google Street Panorama View</p>
+                                </a>
+                             </div>                           
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="explore black" id="explore"> 
+                <div class="container">
+                    <article class="explore-grid">
+                        <div class="explore-info">
+                             <h2 class="section-title-black">Picture Explore</h2>
+                             <div class="title-underline"></div>
+                             <p class="explore-text">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+                             <p class="explore-text">It was cleaned in 1984 to remove a <span>"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
+                             <p class="explore-text">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+                        </div>
+                        <div class="explore-image">
+                            <img class="explore-slider" src="./assets/svg/explore-slider.svg" alt="Slider">
+                            <div class="explore-image-after">                                
+                                
+                                <img class="image-after" src="./assets/img/explore-slider/after.jpg" alt="Restored picture">
+                            </div>                          
+                        </div>                       
+                    </article>                    
+                </div>
+            </section>
+            <section class="video white" id="video">
+                <div class="videos container"> 
+                    <div class="video-text">
+                        <h2 class="section-title-white">Video Journey</h2>
+                        <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                    </div>
+                      <div class="video-large">
+                        <iframe src="https://www.youtube.com/embed/zp1BXPX8jcU"
+                        title="Welcome to the Louvre - Bienvenue au Louvre - Musée du Louvre"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/aWmJ5DgyWPI"
+                        title="Exposition - Le Corps et l&#39;Âme. De Donatello à Michel-Ange. Sculptures italiennes de la Renaissance"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/Vi5D6FKhRmo" title="Au Louvre ! La Vénus de Milo"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/NOhDysLnTvY"
+                        title="Promenade dans les collections mésopotamiennes avec Ariane Thomas"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>      
+                    <div class="video-pagination">
+                        <div class="stroke-left">
+                            <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.4777 0.219168C5.87773 0.564178 5.94259 1.19347 5.62256 1.62473L2.37578 6.00004L5.62256 10.3753C5.94259 10.8066 5.87773 11.4359 5.4777 11.7809C5.07766 12.1259 4.49394 12.056 4.17391 11.6247L0 6.00004L4.17391 0.375342C4.49394 -0.0559202 5.07766 -0.125842 5.4777 0.219168ZM9.65184 0.219168C10.0519 0.564178 10.1167 1.19347 9.7967 1.62473L6.54992 6.00004L9.7967 10.3753C10.1167 10.8066 10.0519 11.4359 9.65184 11.7809C9.2518 12.1259 8.66808 12.056 8.34805 11.6247L4.17414 6.00004L8.34805 0.375342C8.66808 -0.0559202 9.2518 -0.125842 9.65184 0.219168Z" fill="#999999"/>
+                            </svg>                        
+                        </div>
+                        <div class="ellipse">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="#333333"/>
+                        </svg>
+                        </div>
+                        <div class="ellipse">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="#999999"/>
+                            </svg>
+                        </div>
+                        <div class="ellipse">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="#999999"/>
+                            </svg>
+                        </div>
+                        <div class="ellipse">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="#999999"/>
+                            </svg>
+                        </div>
+                        <div class="ellipse">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="6" r="6" fill="#999999"/>
+                            </svg>
+                        </div>
+                        <div class="stroke-right">
+                            <svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.348163 0.219168C0.748196 -0.125842 1.33192 -0.0559202 1.65195 0.375342L5.82586 6.00004L1.65194 11.6247C1.33192 12.056 0.748195 12.1259 0.348162 11.7809C-0.0518709 11.4359 -0.116729 10.8066 0.203297 10.3753L3.45008 6.00004L0.203298 1.62473C-0.116728 1.19347 -0.05187 0.564177 0.348163 0.219168ZM4.5223 0.219168C4.92234 -0.125841 5.50606 -0.0559197 5.82609 0.375342L10 6.00004L5.82609 11.6247C5.50606 12.056 4.92234 12.1259 4.5223 11.7809C4.12227 11.4359 4.05741 10.8066 4.37744 10.3753L7.62422 6.00004L4.37744 1.62473C4.05741 1.19347 4.12227 0.564178 4.5223 0.219168Z" fill="#999999"/>
+                            </svg>
+                        </div>                        
+                    </div>          
+                </div>
+            </section>
+            <section class="gallery black" id="gallery">
+                <div class="gallerie container">
+                    <h2 class="section-title-black">Art Gallery</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-columns">
+                            <img src="./assets/img/galery/galery2.jpg" alt="image2">
+                            <img src="./assets/img/galery/galery9.jpg" alt="image9">
+                            <img src="./assets/img/galery/galery4.jpg" alt="image4">
+                            <img src="./assets/img/galery/galery6.jpg" alt="image6">
+                        </div>
+                        <div class="gallery-columns">
+                            <img src="./assets/img/galery/galery1.jpg" alt="image1">
+                            <img src="./assets/img/galery/galery8.jpg" alt="image8">
+                            <img src="./assets/img/galery/galery3.jpg" alt="image3">
+                            <img src="./assets/img/galery/galery5.jpg" alt="image5">
+                        </div>
+                        <div class="gallery-columns">
+                            <img src="./assets/img/galery/galery7.jpg" alt="image7">
+                            <img src="./assets/img/galery/galery10.jpg" alt="image10">
+                            <img src="./assets/img/galery/galery15.jpg" alt="image15">
+                            <img src="./assets/img/galery/galery12.jpg" alt="image12">
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            <section class="tickets white" id="tickets">
+                <div class="container tickets-reservation">                                        
+                    <h2 class="section-title-white">Buy Tickets</h2>
+                    <div class="title-underline"></div>
+                    <div class="ticket-buttons">
+                        <img src="./assets/img/tickets/pic1.jpg" class="ticket-img" alt="Picture">
+                        <form class="tickets-form">
+                            <fieldset class="tickets-type">
+                                <legend class="tickets-type-legend">Ticket Type</legend>
+                                <div class="ticket-radio">
+                                    <input type="radio" id="permanent" name="ticket" value="Permanent exhibition" checked>
+                                    <label for="permanent">Permanent exhibition</label>
+                                </div>
+                                <div class="ticket-radio">
+                                    <input type="radio" id="temporary" name="ticket" value="Temporary exhibition">
+                                    <label for="temporary">Temporary exhibition</label>
+                                </div>
+                                <div class="ticket-radio">
+                                    <input type="radio" id="combined" name="ticket" value="Combined Admission">
+                                    <label for="combined">Combined Admission</label>
+                                </div>
+                            </fieldset>
+                            <fieldset class="tickets-purchase">
+                                <legend class="tickets-purchase-legend">Amount</legend>
+                                <div class="tickets-basic-age">
+                                    <p>Basic 18+</p>
+                                    <div class="tickets-quantity">
+                                        <button type="button" class="tickets-quantity-button tickets-quantity-button-minus">–</button>
+                                        <input type="number" class="tickets-quantity-input" value="1" min="1" max="200" readonly id="basic-quantity">
+                                        <button type="button" class="tickets-quantity-button tickets-quantity-button-plus">+</button>
+                                    </div>
+                                </div>
+                                <div class="tickets-senior-age">
+                                    <p>Senior 65+</p>
+                                    <div class="tickets-quantity">
+                                        <button type="button" class="tickets-quantity-button tickets-quantity-button-minus">–</button>
+                                        <input type="number" class="tickets-quantity-input" value="1" min="1" max="200" readonly id="basic-quantity-senior">
+                                        <button type="button" class="tickets-quantity-button tickets-quantity-button-plus">+</button>
+                                    </div>
+                                </div>
+                                <p class="tickets-total">Total €<span>220</span></p>
+                                <button type="button" class="tickets-purchase-button">Buy Now</button>
+                            </fieldset>
+                        </form>                    
+                    </div>                    
+                </div>
+            </section>
+            <div class="parallax"></div>
+             <section class="contacts white" id="contacts">
+                <div class="container contacts-container">
+                    <h2 class="section-title-white">Contacts</h2>
+                    <div class="title-underline"></div> 
+                    <div class="contacts-information">
+                        <div class="contacts-adress">
+                            <p>Palais Royal Musee du Louvre</p>
+                            <ul class="adress">
+                                <li>addres: 75001 Paris, France</li>   
+                                <li><a href="tel:+33(0)140205050">phone: +33(0) 1 40 20 50 50</a></li>                                   
+                                <li><a href="mailto:info@louvre.fr">mail: info@louvre.fr</a></li>    
+                            </ul>
+                        </div>
+                        <div class="contacts-map">
+                            <img src="./assets/img/map.jpg" alt="map">
+                        </div>
+                    </div>                   
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container wrapper">
+                <div class="footer-upper">
+                    <div class="footer-logo">
+                        <svg width="195" height="50" viewBox="0 0 195 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M49 35H0L24.5 9L49 35ZM13.3075 22.1309L16.6442 25.6702L19.981 22.1309L16.6442 18.5812L13.3075 22.1309ZM16.6442 34.0052L19.981 30.466L16.6442 26.9162L13.3075 30.466L16.6442 34.0052ZM32.4083 34.0052L35.745 30.466L32.4083 26.9162L29.019 30.466L32.4083 34.0052ZM28.4673 14.4031C28.4473 14.4376 28.4207 14.4694 28.3885 14.4974C27.3507 15.6178 26.2997 16.7382 25.2357 17.8482C25.1437 17.9424 25.2357 18.0052 25.2357 18.089L28.3097 21.356L28.4542 21.4921L31.7909 17.9634L28.4673 14.4031ZM8.78847 34.0052L8.91984 33.8691L11.9938 30.6126C12.0428 30.5717 12.0702 30.5173 12.0702 30.4607C12.0702 30.4042 12.0428 30.3498 11.9938 30.3089C11.0611 29.3456 10.1547 28.3613 9.23512 27.3874L8.78847 26.9162L5.45174 30.466L8.78847 34.0052ZM17.2354 17.9529L20.5721 21.4921L20.6772 21.3979L23.8169 18.0681C23.922 17.9529 23.8169 17.89 23.8169 17.8063L20.7429 14.5602L20.6115 14.4241L17.2354 17.9529ZM17.2354 26.3298L20.5721 29.8691L20.7429 29.7016C21.7413 28.6545 22.7528 27.6073 23.7643 26.4869C23.7926 26.4663 23.8152 26.4412 23.8307 26.4133C23.8461 26.3853 23.8541 26.3551 23.8541 26.3246C23.8541 26.2941 23.8461 26.2639 23.8307 26.2359C23.8152 26.208 23.7926 26.1829 23.7643 26.1623C22.8185 25.1675 21.8727 24.1728 20.9399 23.1675L20.5721 22.7906L17.2354 26.3298ZM32.9995 26.3298L36.3362 29.8691L39.6729 26.3298L36.3362 22.7906L32.9995 26.3298ZM28.4673 22.7801V22.8534L25.3013 26.2147C25.1962 26.3089 25.2357 26.3717 25.3013 26.4555L28.244 29.5969C28.3228 29.6911 28.4147 29.7853 28.5198 29.8901L31.8566 26.3508L28.4673 22.7801ZM12.7295 29.8482C12.7453 29.8175 12.7675 29.7892 12.7952 29.7644L15.9611 26.4031C16.0531 26.2984 15.9611 26.2461 15.9611 26.1623L12.8477 22.8953C12.8069 22.8484 12.7583 22.8061 12.7032 22.7696L9.37962 26.2984L12.7295 29.8482ZM32.3558 25.6597L35.6925 22.1204L32.3558 18.5916L29.019 22.1309L32.3558 25.6597ZM24.4737 17.2827L27.8105 13.7435L24.5263 10.2775H24.4606L21.2552 13.712C21.2354 13.7371 21.2249 13.7662 21.2249 13.7958C21.2249 13.8255 21.2354 13.8545 21.2552 13.8796L24.4737 17.2827ZM24.4737 25.6597L27.8105 22.1204L24.5 18.5812L21.1633 22.1309L24.4737 25.6597ZM24.4737 34.0366L27.8105 30.4974L24.4737 26.9476L21.1633 30.466L24.4737 34.0366ZM40.2378 34.0366L43.5745 30.4974L40.2509 26.9791H40.1853L36.9668 30.3613C36.8617 30.4764 36.9668 30.5288 36.9668 30.6021L39.5941 33.4398L40.2378 34.0366ZM1.89169 34.2356H7.88204L4.91314 31.0942L1.89169 34.2356ZM41.1705 34.2356H47.1083L44.1394 31.0942L41.1705 34.2356ZM23.5542 34.2356L20.5721 31.0942L17.5901 34.2356H23.5542ZM33.3147 34.2356H39.2525L36.2836 31.0942L33.3147 34.2356ZM31.3968 34.2356L28.4279 31.0942L25.459 34.2356H31.3968ZM15.6327 34.2356L12.6638 31.0942L9.69491 34.2356H15.6327Z" fill="white"/>
+                        <path d="M76.26 34.72H76.4C76.5493 34.72 76.68 34.6733 76.792 34.58C76.904 34.468 76.9973 34.3373 77.072 34.188C77.1653 34.0387 77.2307 33.88 77.268 33.712C77.324 33.544 77.352 33.3853 77.352 33.236V18.256C77.352 18.1253 77.324 17.976 77.268 17.808C77.2307 17.64 77.1653 17.4813 77.072 17.332C76.9973 17.1827 76.904 17.0613 76.792 16.968C76.68 16.856 76.5493 16.8 76.4 16.8H76.26V16.52H80.292V16.8H80.152C80.0027 16.8 79.872 16.856 79.76 16.968C79.648 17.0613 79.5547 17.1827 79.48 17.332C79.4053 17.4813 79.34 17.64 79.284 17.808C79.2467 17.976 79.228 18.1253 79.228 18.256V33.964H85.36C85.7147 33.964 86.0227 33.88 86.284 33.712C86.5453 33.544 86.76 33.3387 86.928 33.096C87.1147 32.8347 87.2453 32.564 87.32 32.284C87.4133 31.9853 87.46 31.7147 87.46 31.472H87.74V35H76.26V34.72ZM102.563 16.24C104.019 16.24 105.326 16.5013 106.483 17.024C107.641 17.528 108.621 18.2187 109.423 19.096C110.245 19.9547 110.87 20.9627 111.299 22.12C111.747 23.2587 111.971 24.4533 111.971 25.704C111.971 27.104 111.71 28.392 111.187 29.568C110.683 30.744 109.983 31.752 109.087 32.592C108.191 33.432 107.146 34.0947 105.951 34.58C104.775 35.0467 103.515 35.28 102.171 35.28C100.734 35.28 99.4365 35.0187 98.2792 34.496C97.1405 33.9733 96.1699 33.2827 95.3672 32.424C94.5832 31.5653 93.9765 30.576 93.5472 29.456C93.1179 28.336 92.9032 27.1693 92.9032 25.956C92.9032 24.7613 93.1179 23.5853 93.5472 22.428C93.9765 21.252 94.6019 20.2067 95.4232 19.292C96.2632 18.3773 97.2805 17.64 98.4752 17.08C99.6699 16.52 101.033 16.24 102.563 16.24ZM102.535 34.3C103.786 34.244 104.878 33.964 105.811 33.46C106.763 32.9373 107.557 32.284 108.191 31.5C108.826 30.6973 109.293 29.82 109.591 28.868C109.909 27.916 110.067 26.9733 110.067 26.04C110.067 25.0133 109.881 23.9773 109.507 22.932C109.134 21.8867 108.602 20.944 107.911 20.104C107.221 19.2453 106.39 18.5547 105.419 18.032C104.467 17.4907 103.394 17.22 102.199 17.22C101.042 17.22 100.006 17.4813 99.0912 18.004C98.1765 18.508 97.3925 19.1613 96.7392 19.964C96.1045 20.7667 95.6192 21.6627 95.2832 22.652C94.9472 23.6413 94.7792 24.612 94.7792 25.564C94.7792 26.5907 94.9752 27.6267 95.3672 28.672C95.7592 29.6987 96.3005 30.632 96.9912 31.472C97.6819 32.312 98.4939 32.9933 99.4272 33.516C100.379 34.0387 101.415 34.3 102.535 34.3ZM119.428 16.52H123.404V16.8H123.264C123.115 16.8 122.984 16.856 122.872 16.968C122.76 17.0613 122.657 17.1827 122.564 17.332C122.489 17.4813 122.433 17.64 122.396 17.808C122.359 17.976 122.34 18.1253 122.34 18.256V29.316C122.34 30.044 122.415 30.716 122.564 31.332C122.713 31.948 122.965 32.48 123.32 32.928C123.675 33.376 124.141 33.7307 124.72 33.992C125.299 34.2347 126.008 34.356 126.848 34.356C127.781 34.356 128.528 34.2067 129.088 33.908C129.648 33.6093 130.077 33.2267 130.376 32.76C130.675 32.2747 130.871 31.7333 130.964 31.136C131.057 30.5387 131.104 29.9507 131.104 29.372V18.256C131.104 18.1253 131.085 17.976 131.048 17.808C131.011 17.64 130.945 17.4813 130.852 17.332C130.777 17.1827 130.684 17.0613 130.572 16.968C130.46 16.856 130.339 16.8 130.208 16.8H130.068V16.52H133.12V16.8H132.98C132.831 16.8 132.7 16.856 132.588 16.968C132.495 17.0613 132.401 17.1827 132.308 17.332C132.233 17.4813 132.177 17.64 132.14 17.808C132.103 17.976 132.084 18.1253 132.084 18.256V29.288C132.084 30.5013 131.935 31.5 131.636 32.284C131.337 33.0493 130.927 33.656 130.404 34.104C129.881 34.552 129.265 34.86 128.556 35.028C127.865 35.196 127.128 35.28 126.344 35.28C125.504 35.28 124.72 35.1867 123.992 35C123.283 34.832 122.667 34.524 122.144 34.076C121.621 33.628 121.211 33.0213 120.912 32.256C120.613 31.472 120.464 30.492 120.464 29.316V18.256C120.464 18.1253 120.445 17.976 120.408 17.808C120.371 17.64 120.305 17.4813 120.212 17.332C120.137 17.1827 120.044 17.0613 119.932 16.968C119.82 16.856 119.699 16.8 119.568 16.8H119.428V16.52ZM143.076 17.5C143.076 17.612 143.104 17.752 143.16 17.92L148.088 31.192L153.016 17.78C153.034 17.7427 153.053 17.6867 153.072 17.612C153.09 17.5373 153.1 17.4813 153.1 17.444C153.1 17.22 153.006 17.0613 152.82 16.968C152.652 16.856 152.493 16.8 152.344 16.8V16.52H155.396V16.8C155.116 16.8 154.854 16.8747 154.612 17.024C154.388 17.1733 154.21 17.4253 154.08 17.78L147.668 35.336L141.116 17.864C141.004 17.584 140.836 17.3413 140.612 17.136C140.406 16.9307 140.145 16.8187 139.828 16.8V16.52H143.804V16.8C143.636 16.8 143.468 16.8653 143.3 16.996C143.15 17.108 143.076 17.276 143.076 17.5ZM166.076 34.72H166.216V35H162.268V34.72H162.408C162.538 34.72 162.66 34.664 162.772 34.552C162.884 34.44 162.977 34.3093 163.052 34.16C163.145 34.0107 163.21 33.852 163.248 33.684C163.285 33.4973 163.304 33.3293 163.304 33.18V18.256C163.304 18.1253 163.285 17.976 163.248 17.808C163.21 17.64 163.145 17.4813 163.052 17.332C162.977 17.1827 162.884 17.0613 162.772 16.968C162.66 16.856 162.538 16.8 162.408 16.8H162.268V16.52H167.14C169.006 16.52 170.444 16.884 171.452 17.612C172.478 18.34 172.992 19.4133 172.992 20.832C172.992 21.5413 172.87 22.1667 172.628 22.708C172.404 23.2307 172.096 23.688 171.704 24.08C171.312 24.4533 170.845 24.7613 170.304 25.004C169.781 25.228 169.221 25.396 168.624 25.508L170.64 28.588C171.125 29.3347 171.62 30.072 172.124 30.8C172.628 31.5093 173.122 32.2467 173.608 33.012C173.738 33.1987 173.878 33.3947 174.028 33.6C174.196 33.8053 174.364 33.992 174.532 34.16C174.718 34.328 174.905 34.468 175.092 34.58C175.297 34.6733 175.502 34.72 175.708 34.72V35H174.504C173.757 35 173.141 34.8227 172.656 34.468C172.189 34.0947 171.797 33.6653 171.48 33.18C170.64 31.948 169.8 30.6973 168.96 29.428C168.138 28.1587 167.317 26.908 166.496 25.676C166.29 25.6573 166.066 25.6387 165.824 25.62C165.6 25.5827 165.385 25.5453 165.18 25.508V33.18C165.18 33.3293 165.198 33.4973 165.236 33.684C165.273 33.852 165.329 34.0107 165.404 34.16C165.497 34.3093 165.59 34.44 165.684 34.552C165.796 34.664 165.926 34.72 166.076 34.72ZM165.18 17.472V24.584H165.32C165.469 24.6027 165.702 24.6213 166.02 24.64C166.356 24.64 166.766 24.64 167.252 24.64C167.644 24.64 168.054 24.584 168.484 24.472C168.932 24.3413 169.342 24.136 169.716 23.856C170.108 23.5573 170.425 23.1747 170.668 22.708C170.929 22.2413 171.06 21.6533 171.06 20.944C171.06 20.2347 170.92 19.656 170.64 19.208C170.378 18.76 170.005 18.4053 169.52 18.144C169.053 17.8827 168.484 17.7053 167.812 17.612C167.14 17.5187 166.402 17.472 165.6 17.472H165.18ZM182.389 34.72H182.529C182.678 34.72 182.809 34.6733 182.921 34.58C183.033 34.468 183.126 34.3373 183.201 34.188C183.294 34.0387 183.36 33.88 183.397 33.712C183.453 33.544 183.481 33.3853 183.481 33.236V18.256C183.481 18.1253 183.453 17.976 183.397 17.808C183.36 17.64 183.294 17.4813 183.201 17.332C183.126 17.1827 183.033 17.0613 182.921 16.968C182.809 16.856 182.678 16.8 182.529 16.8H182.389V16.52H193.169V19.124H192.889C192.852 18.6947 192.684 18.3213 192.385 18.004C192.086 17.668 191.62 17.5 190.985 17.5H185.357V24.584H190.005C190.434 24.584 190.789 24.4533 191.069 24.192C191.368 23.9307 191.517 23.6227 191.517 23.268H191.797V26.768H191.517C191.517 26.432 191.377 26.1427 191.097 25.9C190.817 25.6573 190.453 25.536 190.005 25.536H185.357V34.02H191.489C191.844 34.02 192.152 33.936 192.413 33.768C192.674 33.6 192.889 33.404 193.057 33.18C193.244 32.9373 193.374 32.6853 193.449 32.424C193.542 32.144 193.589 31.9107 193.589 31.724H193.869V35H182.389V34.72Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="footer-nav">
+                    <ul class="nav-footer-list">
+                    <li class="nav-footer-item"><a href="#visiting" class="nav-link">Visiting</a></li>
+                    <li class="nav-footer-item"><a href="#explore" class="nav-link">Explore</a></li>
+                    <li class="nav-footer-item"><a href="#video" class="nav-link">Video</a></li>
+                    <li class="nav-footer-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-footer-item"><a href="#tickets" class="nav-link">Tickets</a></li>
+                    <li class="nav-footer-item"><a href="#contacts" class="nav-link">Contacts</a></li>                
+                    </ul>
+                    </div>
+                    <div class="footer-social">
+                   <div class="footer-social-link youtube">
+                    <a href="https://www.youtube.com/user/louvre" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_1_1743)">
+                                <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#666666"/>
+                            </g>
+                            <path d="M22.03 27.38V20.62L27.97 24L22.03 27.38ZM35.23 18.5C35.1026 18.0177 34.8508 17.5773 34.4998 17.2229C34.1488 16.8684 33.711 16.6122 33.23 16.48C31.46 16 24.35 16 24.35 16C24.35 16 17.25 16 15.48 16.48C14.999 16.6122 14.5612 16.8684 14.2102 17.2229C13.8592 17.5773 13.6074 18.0177 13.48 18.5C13 20.28 13 24 13 24C13 24 13 27.72 13.47 29.5C13.5983 29.9835 13.8516 30.4247 14.2044 30.7793C14.5572 31.1338 14.9972 31.3893 15.48 31.52C17.25 32 24.36 32 24.36 32C24.36 32 31.46 32 33.23 31.52C33.711 31.3878 34.1488 31.1316 34.4998 30.7771C34.8508 30.4227 35.1026 29.9823 35.23 29.5C35.71 27.72 35.71 24 35.71 24C35.71 24 35.71 20.28 35.24 18.5H35.23Z" fill="white"/>
+                            <defs>
+                                <filter id="filter0_d_1_1743" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 1 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1743"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1743" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>                        
+                    </a>
+                   </div>
+                   <div class="footer-social-link instagram">
+                    <a href="https://www.instagram.com/museelouvre/" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_1_1739)">
+                                <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#666666"/>
+                            </g>
+                            <path d="M25.0199 14C26.8199 14 27.1999 14.02 28.1199 14.06C29.1799 14.11 29.9099 14.28 30.5399 14.53C31.1999 14.78 31.7599 15.13 32.3099 15.68C32.8699 16.23 33.2099 16.79 33.4699 17.45C33.7199 18.08 33.8799 18.81 33.9299 19.88C33.9799 20.83 33.9899 21.2 33.9899 23.2V24.8C33.9899 26.8 33.9799 27.17 33.9299 28.12C33.9142 28.9468 33.7587 29.7651 33.4699 30.54C33.2099 31.2 32.8699 31.76 32.3199 32.31C31.7599 32.87 31.1999 33.21 30.5399 33.47C29.9099 33.72 29.1799 33.88 28.1199 33.93C27.1699 33.98 26.7899 33.99 24.7899 33.99H23.1999C21.1999 33.99 20.8299 33.98 19.8699 33.93C19.0431 33.9141 18.2249 33.7586 17.4499 33.47C16.7835 33.2195 16.1796 32.8271 15.6799 32.32C15.1677 31.8186 14.7717 31.211 14.5199 30.54C14.2315 29.765 14.076 28.9468 14.0599 28.12C14.0109 27.0874 13.9909 26.0537 13.9999 25.02V22.97C13.9999 21.17 14.0199 20.79 14.0599 19.87C14.1099 18.81 14.2799 18.08 14.5199 17.45C14.7799 16.79 15.1199 16.23 15.6799 15.68C16.1751 15.1674 16.7803 14.7742 17.4499 14.53C18.2244 14.2382 19.0425 14.0793 19.8699 14.06C20.7899 14.02 21.1699 14 22.9699 14H25.0199ZM25.0399 15.8H22.9499C21.2199 15.8 20.8499 15.82 19.9499 15.86C18.9799 15.9 18.4499 16.06 18.0999 16.2C17.6299 16.38 17.2999 16.6 16.9499 16.95C16.5999 17.3 16.3799 17.63 16.1999 18.1C16.0699 18.45 15.8999 18.98 15.8599 19.96C15.8199 20.86 15.7999 21.22 15.7999 22.96V25.04C15.7999 26.78 15.8199 27.14 15.8599 28.04C15.8999 29.01 16.0599 29.54 16.1999 29.89C16.3799 30.36 16.5999 30.69 16.9499 31.04C17.2999 31.39 17.6299 31.61 18.0999 31.79C18.4499 31.93 18.9799 32.09 19.9599 32.13C20.9299 32.18 21.2799 32.19 23.4399 32.19H24.5499C26.7199 32.19 27.0599 32.18 28.0399 32.13C29.0099 32.09 29.5399 31.93 29.8899 31.79C30.3599 31.61 30.6899 31.39 31.0399 31.04C31.3899 30.69 31.6099 30.36 31.7899 29.89C31.9299 29.54 32.0899 29.01 32.1299 28.04C32.1799 27.06 32.1899 26.72 32.1899 24.55V23.45C32.1899 21.28 32.1799 20.93 32.1299 19.95C32.0899 18.98 31.9299 18.45 31.7899 18.1C31.629 17.6654 31.3727 17.2725 31.0399 16.95C30.7177 16.6169 30.3246 16.3606 29.8899 16.2C29.2968 15.9832 28.6713 15.8682 28.0399 15.86C27.0407 15.8123 26.0403 15.7923 25.0399 15.8ZM23.9999 18.86C25.3618 18.86 26.6679 19.401 27.6309 20.364C28.5939 21.327 29.1349 22.6331 29.1349 23.995C29.1349 25.3569 28.5939 26.663 27.6309 27.626C26.6679 28.589 25.3618 29.13 23.9999 29.13C22.638 29.13 21.3319 28.589 20.3689 27.626C19.4059 26.663 18.8649 25.3569 18.8649 23.995C18.8649 22.6331 19.4059 21.327 20.3689 20.364C21.3319 19.401 22.638 18.86 23.9999 18.86ZM23.9999 20.66C23.1154 20.66 22.2671 21.0114 21.6417 21.6368C21.0163 22.2622 20.6649 23.1105 20.6649 23.995C20.6649 24.8795 21.0163 25.7278 21.6417 26.3532C22.2671 26.9786 23.1154 27.33 23.9999 27.33C24.8844 27.33 25.7327 26.9786 26.3581 26.3532C26.9835 25.7278 27.3349 24.8795 27.3349 23.995C27.3349 23.1105 26.9835 22.2622 26.3581 21.6368C25.7327 21.0114 24.8844 20.66 23.9999 20.66ZM29.3299 17.46C29.6482 17.46 29.9534 17.5864 30.1784 17.8115C30.4035 18.0365 30.5299 18.3417 30.5299 18.66C30.5299 18.9783 30.4035 19.2835 30.1784 19.5085C29.9534 19.7336 29.6482 19.86 29.3299 19.86C29.0116 19.86 28.7064 19.7336 28.4814 19.5085C28.2563 19.2835 28.1299 18.9783 28.1299 18.66C28.1299 18.3417 28.2563 18.0365 28.4814 17.8115C28.7064 17.5864 29.0116 17.46 29.3299 17.46Z" fill="white"/>
+                            <defs>
+                                <filter id="filter0_d_1_1739" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 1 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1739"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1739" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                   </div>
+                   <div class="footer-social-link facebook">
+                    <a href="https://www.facebook.com/museedulouvre" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_1_1735)">
+                                <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#666666"/>
+                            </g>
+                            <path d="M21.78 34L21.75 25.25H18V21.5H21.75V19C21.75 15.63 23.84 14 26.85 14C28.29 14 29.53 14.1 29.89 14.15V17.68H27.8C26.17 17.68 25.85 18.46 25.85 19.6V21.5H30.5L29.25 25.25H25.85V34H21.78Z" fill="white"/>
+                            <defs>
+                                <filter id="filter0_d_1_1735" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 1 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1735"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1735" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                   </div>
+                   <div class="footer-social-link twitter">
+                    <a href="http://twitter.com/museelouvre" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_1_1731)">
+                                <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#666666"/>
+                            </g>
+                            <path d="M34 17.88C33.25 18.25 32.5 18.38 31.62 18.5C32.5 18 33.12 17.25 33.37 16.25C32.5606 16.7313 31.6743 17.0696 30.75 17.25C29.9485 16.4623 28.8737 16.0145 27.75 16C25.62 16 23.75 17.88 23.75 20.13C23.75 20.5 23.75 20.75 23.88 21C22.2422 20.9382 20.6364 20.5271 19.1705 19.7941C17.7045 19.0611 16.4121 18.0232 15.38 16.75C15.0081 17.3956 14.8342 18.1363 14.88 18.88C14.8916 19.552 15.0683 20.2108 15.3943 20.7984C15.7204 21.3861 16.186 21.8846 16.75 22.25C16.12 22.25 15.5 22 14.87 21.75C14.87 23.75 16.25 25.38 18.12 25.75C17.75 25.88 17.37 25.88 17 25.88C16.75 25.88 16.5 25.88 16.25 25.75C16.75 27.38 18.25 28.63 20.13 28.63C18.6778 29.7963 16.8622 30.4156 15 30.38H14C15.875 31.5591 18.0355 32.2056 20.25 32.25C27.75 32.25 31.88 26 31.88 20.62V20.12C32.7387 19.5335 33.4617 18.7697 34 17.88Z" fill="white"/>
+                            <defs>
+                                <filter id="filter0_d_1_1731" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                    <feOffset/>
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 1 0"/>
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1731"/>
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1731" result="shape"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </a>
+                   </div>
+                   <div class="footer-social-link pinterest">
+                    <a href="https://www.pinterest.fr/museedulouvre/" target="_blank">
+                       <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_1_1727)">
+                            <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#666666"/>
+                        </g>
+                        <path d="M24 14C21.6755 14.0082 19.4264 14.826 17.6395 16.3128C15.8526 17.7995 14.6395 19.8623 14.2087 22.1466C13.7778 24.4309 14.1563 26.7939 15.2789 28.8293C16.4015 30.8648 18.1982 32.4456 20.36 33.3C20.26 32.51 20.19 31.3 20.39 30.43L21.56 25.46C21.56 25.46 21.26 24.86 21.26 23.98C21.26 22.59 22.07 21.56 23.08 21.56C23.93 21.56 24.35 22.2 24.35 22.96C24.35 23.82 23.8 25.1 23.51 26.29C23.27 27.29 24.01 28.1 25 28.1C26.78 28.1 28.14 26.23 28.14 23.53C28.14 21.13 26.42 19.47 23.96 19.47C23.3756 19.4443 22.792 19.5373 22.2446 19.7434C21.6971 19.9495 21.1971 20.2644 20.7746 20.669C20.3522 21.0737 20.0162 21.5598 19.7868 22.0979C19.5574 22.636 19.4394 23.215 19.44 23.8C19.44 24.66 19.77 25.58 20.18 26.08C20.26 26.18 20.27 26.27 20.24 26.37L19.96 27.5C19.92 27.68 19.81 27.73 19.63 27.64C18.37 27.05 17.59 25.24 17.59 23.76C17.59 20.61 19.89 17.72 24.21 17.72C27.67 17.72 30.38 20.18 30.38 23.49C30.38 26.94 28.2 29.71 25.18 29.71C24.18 29.71 23.22 29.18 22.9 28.56L22.27 30.93C21.9748 31.8577 21.5579 32.7421 21.03 33.56C22.4038 33.9816 23.8524 34.1021 25.277 33.9133C26.7016 33.7245 28.0687 33.2309 29.2854 32.4661C30.502 31.7014 31.5395 30.6833 32.3272 29.4814C33.115 28.2795 33.6344 26.9219 33.8501 25.5011C34.0658 24.0804 33.9728 22.6298 33.5774 21.2482C33.1819 19.8666 32.4934 18.5865 31.5586 17.4951C30.6238 16.4036 29.4648 15.5264 28.1604 14.9233C26.8561 14.3202 25.437 14.0053 24 14Z" fill="white"/>
+                        <defs>
+                            <filter id="filter0_d_1_1727" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 1 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1727"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1727" result="shape"/>
+                            </filter>
+                        </defs>
+                        </svg>
+                    </a>
+                   </div>
+                    </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-under">
+                    <span>© 2025</span>
+                    <span>
+                        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank">Rollng Scopes Schhool</a>
+                    </span>
+                    <span><a href="https://github.com/rockabil" target="_blank">Valery Strokach</a>
+                    </span>
+                </div>
+            </div>     
+        </div>
+    </footer>
+</body>
+</html>
